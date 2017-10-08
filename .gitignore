@@ -18,7 +18,7 @@
 # Java class files
 *.class
 
-# Generated files
+# Generated files˚
 bin/
 gen/
 out/
@@ -29,7 +29,7 @@ build/
 
 library/
 /app/libs/
-.gitignore
+
 # Local configuration file (sdk path, etc)
 local.properties
 
