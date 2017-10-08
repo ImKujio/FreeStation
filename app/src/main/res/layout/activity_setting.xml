@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dxys.demo.bingo.setting.SettingActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/settings_toolbar"
+        app:layout_scrollFlags="scroll|enterAlways"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:elevation="3dp"
+        android:background="?attr/colorPrimary"
+        android:layout_marginBottom="4dp"
+        app:popupTheme="@style/AppTheme.AppBarOverlay"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="图片保存路径"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="#a0000000"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:text="sccard/FreeStation/"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="版本信息"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textColor="#a0000000"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:text="版本：v1.1  创建时间：2017-10-06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:text="开源相关"
+            android:textColor="@color/colorPrimary"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/okio"
+            android:textColor="@color/colorArray1"
+            android:layout_marginTop="8dp"
+            android:text="OkIo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/okhttp"
+            android:textColor="@color/colorArray1"
+            android:layout_marginTop="8dp"
+            android:text="OkHttp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/colorArray1"
+            android:layout_marginTop="8dp"
+            android:id="@+id/imageloader"
+            android:text="ImageLoader"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:textSize="16sp"
+            android:textColor="@color/colorArray1"
+            android:id="@+id/photoview"
+            android:layout_marginTop="8dp"
+            android:text="PhotoView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/image_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:background="#ff66bf"
+        android:layout_width="match_parent"
+        android:id="@+id/top_bar"
+        android:orientation="horizontal"
+        android:elevation="3dp"
+        android:layout_height="40dp">
+        <ImageButton
+            android:id="@+id/top_bar_back"
+            android:padding="8dp"
+            android:layout_gravity="center_vertical|bottom"
+            android:src="@drawable/ic_back"
+            android:tint="@android:color/white"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+        <TextView
+            android:id="@+id/position_text"
+            android:textColor="#ffffff"
+            android:text="1/20"
+            android:textSize="16sp"
+            android:layout_gravity="bottom|center_horizontal"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="40dp"/>
+
+        <ImageButton
+            android:padding="8dp"
+            android:id="@+id/top_bar_download"
+            android:layout_gravity="center_vertical|bottom"
+            android:src="@drawable/ic_save"
+            android:tint="@android:color/white"
+            android:backgroundTint="@android:color/transparent"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+    </LinearLayout>
+
+
+
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v4.widget.SwipeRefreshLayout
+
+        android:id="@+id/swipe_efresh_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        tools:context="com.dxys.demo.bingo.TabPage.ImageGroupFg">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+    <com.dxys.demo.bingo.view.LoadMoreView
+        android:layout_gravity="bottom"
+        android:id="@+id/load_more_view"
+        android:layout_width="match_parent"
+        android:layout_height="4dp"/>
+</FrameLayout>
