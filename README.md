@@ -2,7 +2,7 @@
 
 ## 下载
 
-[点此下载](https://github.com/Dxys-cmt/FreeStation/blob/master/Free%E7%AB%99.apk)
+[点此下载](https://github.com/Dxys-cmt/FreeStation/blob/master/apk/Free%E7%AB%99.apk)
 
 ## 截图
 
